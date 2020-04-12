@@ -2,10 +2,12 @@ import React from 'react';
 import './App.css';
 
 import AppBar from '@material-ui/core/AppBar';
-import { HashRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link, Switch } from 'react-router-dom';
 
-import { Projets } from './screens/projets';
 import { Presentation } from './screens/presentation';
+import { Formations } from './screens/formations';
+import { Projets } from './screens/projets';
+import { NotFoundPage } from './screens/notFoundPage';
 
 function App() {
   return(
@@ -15,14 +17,19 @@ function App() {
                 <nav>
                     <ul>
                         <li><Link to="/">PRÉSENTATION</Link></li>
+                        <li><Link to="/formations">FORMATIONS</Link></li>
                         <li><Link to="/projets">PROJETS</Link></li>
                         <li><a href={process.env.PUBLIC_URL + "/pdf/CV.pdf"} target="_blank" rel="noopener noreferrer">CV</a></li>
                     </ul>
                 </nav>
             </AppBar>
             
-            <Route exact path="/" component={Presentation} />
-            <Route path="/projets" component={Projets} />
+            <Switch>
+                <Route exact path="/" component={Presentation} />
+                <Route path="/projets" component={Projets} />
+                <Route path="/formations" component={Formations} />
+                <Route path="*" component={NotFoundPage} />
+            </Switch>
 
             <footer>
                 <div>

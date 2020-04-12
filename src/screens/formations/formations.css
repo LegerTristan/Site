@@ -1,13 +1,13 @@
 /* CONTENU*/
 
-.containerProjets{
+.containerFormations{
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
   
-.memoryFX, .souvenange{
+.iut, .lycee{
   display: flex;
   width: 100%;
   margin-bottom: 5vh;
@@ -31,6 +31,6 @@
   height: 90%;
 }
 
-.memoryFX{
+.iut{
   border-bottom: 2px solid gray;
 }

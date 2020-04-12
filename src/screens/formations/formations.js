@@ -1,12 +1,12 @@
 import React from 'react';
-import './projets.css';
+import './formations.css';
 
-export function Projets(){
+export function Formations(){
     return(
-        <div className="containerProjets">
-            <div className="memoryFX">
+        <div className="containerFormations">
+            <div className="iut">
                 <div className="gauche">
-                    <h2>MemoryFX, <span>JavaFX</span></h2>
+                    <h2>DUT Informatique à l'IUT du Limousin</h2>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit id dolor quis molestie.
                         In magna urna, egestas ut fermentum non, eleifend ultricies metus. Vivamus et feugiat sapien.
@@ -15,15 +15,15 @@ export function Projets(){
                         Nunc ligula orci, mollis nec tortor luctus, elementum tristique sapien. </p>
                 </div>
                 <figure className="droite">
-                    <img src={process.env.PUBLIC_URL + "/images/memoryFX_visuel.png"}  alt="Capture d'écran du jeu"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/lgIUT.jfif"}  alt="Logo de l'IUT du Limousin"></img>
 
-                    <figcaption><a href="https://github.com/LegerTristan/MemoryFX" target="_blank" rel="noopener noreferrer">Télécharger le projet sur GitHub</a></figcaption>
+                    <figcaption>2018-2020 Limoges, 87000, France</figcaption>
                 </figure>
             </div>
 
-            <div className="souvenange">
+            <div className="lycee">
                 <div className="gauche">
-                    <h2>Souvenange, <span>React/Redux</span></h2>
+                    <h2>Baccalauréat scientifique au Lycée Jean-Baptiste Darnet</h2>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit id dolor quis molestie.
                         In magna urna, egestas ut fermentum non, eleifend ultricies metus. Vivamus et feugiat sapien.
@@ -32,9 +32,9 @@ export function Projets(){
                         Nunc ligula orci, mollis nec tortor luctus, elementum tristique sapien. </p>
                 </div>
                 <figure className="droite">
-                    <img src={process.env.PUBLIC_URL + "/images/souvenange_visuel.png"}  alt="Capture d'écran du site"></img>
+                    <img src={process.env.PUBLIC_URL + "/images/logoJB.jfif"}  alt="Lycée Jean-Baptiste Darnet"></img>
 
-                    <figcaption><a href="https://github.com/LegerTristan " target="_blank" rel="noopener noreferrer">Télécharger le projet sur GitHub</a></figcaption>
+                    <figcaption>2016-2018 Saint-Yrieix la Perche, 87500, France</figcaption>
                 </figure>
             </div>
 
