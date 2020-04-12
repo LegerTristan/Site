@@ -1,1 +1,0 @@
-export { PDF } from './CV.pdf';
