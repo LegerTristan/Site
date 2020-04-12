@@ -1,1 +1,1 @@
-export { Body } from './body.js';
+export { Body } from './body';
