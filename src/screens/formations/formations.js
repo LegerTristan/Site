@@ -8,11 +8,13 @@ export function Formations(){
                 <div className="gauche">
                     <h2>DUT Informatique à l'IUT du Limousin</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit id dolor quis molestie.
-                        In magna urna, egestas ut fermentum non, eleifend ultricies metus. Vivamus et feugiat sapien.
-                        Donec fringilla fringilla luctus. Mauris consectetur, augue dignissim auctor cursus, mi lacus consectetur nulla, sit amet venenatis tortor odio eu dui.
-                        Vestibulum pretium dignissim vehicula. Nulla sem dolor, cursus et euismod a, dignissim a ligula.
-                        Nunc ligula orci, mollis nec tortor luctus, elementum tristique sapien. </p>
+                    <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tel que
+                        le Java, le C++, et toutes les technologies liés au Web, c'est-à-dire HTML, CSS et JS. <br />
+                        Ma formation m'a également permis d'appliquer mes compétences au cours de divers projets en y ajoutant de la méthodologie,
+                         et de la gestion de projet. <br />
+                        En effet, grâce aux méthodes agiles et à la réalisation de gestion de projet via des Gantt, des diagrammes de Use Case etc,
+                         j'ai acquis la rigueur nécessaire pour planifier et concevoir un produit demandés par un client par exemple.
+                    </p>
                 </div>
                 <figure className="droite">
                     <img src={process.env.PUBLIC_URL + "/images/lgIUT.jfif"}  alt="Logo de l'IUT du Limousin"></img>
@@ -25,11 +27,12 @@ export function Formations(){
                 <div className="gauche">
                     <h2>Baccalauréat scientifique au Lycée Jean-Baptiste Darnet</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit id dolor quis molestie.
-                        In magna urna, egestas ut fermentum non, eleifend ultricies metus. Vivamus et feugiat sapien.
-                        Donec fringilla fringilla luctus. Mauris consectetur, augue dignissim auctor cursus, mi lacus consectetur nulla, sit amet venenatis tortor odio eu dui.
-                        Vestibulum pretium dignissim vehicula. Nulla sem dolor, cursus et euismod a, dignissim a ligula.
-                        Nunc ligula orci, mollis nec tortor luctus, elementum tristique sapien. </p>
+                    <p>J'ai obtenu mon Baccalauréat scientifique avec la mention assez bien en 2018. <br />
+                        La filière scientifique m'a permis d'acquérir les bases de la physique et les notions de mathématiques
+                        nécessaire pour concevoir des logiciels qui requiert des principes et des règles pour un environnement, une simulation etc. <br />
+                        L'ensemble des matières étudiés durant ce cursus m'ont offert une culture générale correcte et des bases solides pour poursuivre
+                        mes études. <br />
+                    </p>
                 </div>
                 <figure className="droite">
                     <img src={process.env.PUBLIC_URL + "/images/logoJB.jfif"}  alt="Lycée Jean-Baptiste Darnet"></img>

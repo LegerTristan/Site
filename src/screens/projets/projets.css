@@ -14,12 +14,20 @@
   align-items: center;
 }
 
+.memoryFX{
+  border-bottom: 2px solid gray;
+}
+
 .gauche, .droite{
   width: 50%;
 }
 
 .gauche{
   margin-left: 10vw;
+}
+
+.gauche p{
+  text-align: justify;
 }
 
 .droite{
@@ -31,6 +39,3 @@
   height: 90%;
 }
 
-.memoryFX{
-  border-bottom: 2px solid gray;
-}

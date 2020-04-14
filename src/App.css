@@ -1,14 +1,23 @@
 /* ALL */
 
 a{
-  color: black;
+  color: #0049BF;
   text-decoration: none;
+}
+
+a:hover, a:visited:hover{
+  color: #BF0000;
+}
+
+a:visited{
+  color: #8C00BF;
 }
 
 .container{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #FEFEFE;
 }
 
 /* HEADER */
@@ -17,18 +26,32 @@ header{
   padding: 5px 0px;
 }
 
+.MuiAppBar-colorPrimary{
+  background-color: #F8F8F8 !important;
+}
+
 header nav ul{
   display: flex;
   list-style-type: none;
   justify-content: space-around;
   padding-left: 0px;
 }
+header a, header a:visited{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover, header a:visited:hover{
+  color: black;
+  background-color: #D3D3D3;
+}
 
 /* FOOTER */
 
 footer{
   border-top: 1px solid gray;
-  background-color: white;
+  background-color: #F8F8F8;
   width: 100%;
   height: 100px;
 
