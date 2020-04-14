@@ -28,6 +28,11 @@
   margin: 0px;
 }
 
+.entete p{
+  color: gray;
+  font-weight: bold;
+}
+
 .colonnes{
   display: flex;
   margin-bottom: 20px;
@@ -37,8 +42,12 @@
   margin: 0px 3%;
 }
 
-.firstCol, .secondCol, .thirdCol{
+.cols{
   width: 33%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
 }
 
 .colonnes p{

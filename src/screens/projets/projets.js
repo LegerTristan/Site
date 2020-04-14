@@ -6,7 +6,7 @@ export function Projets(){
         <div className="containerProjets">
             <div className="memoryFX">
                 <div className="gauche">
-                    <h2>MemoryFX, <span>JavaFX</span></h2>
+                    <h2>MemoryFX <img src={process.env.PUBLIC_URL + "/icone/iconeJFX.png"} alt=" : JavaFX" className="jfx" title="Outil utilisé : JavaFX"/></h2>
 
                     <p>MemoryFX est tout simplement un memory, un jeu de mémoire où le but est de retrouver toutes les paires,
                         que j'ai développé avec la libraire JavaFX. <br />
@@ -31,7 +31,10 @@ export function Projets(){
 
             <div className="souvenange">
                 <div className="gauche">
-                    <h2>Souvenange, <span>React/Redux</span></h2>
+                    <h2>Souvenange
+                        <img src={process.env.PUBLIC_URL + "/icone/iconeReact.png"} alt=" : React, " className="outilSvnge" title="Outil utilisé : React"/>
+                        <img src={process.env.PUBLIC_URL + "/icone/iconeRedux.png"} alt=" Redux" className="outilSvnge" title="Outil utilisé : Redux"/>
+                    </h2>
 
                     <p>Lors de ma deuxième année de DUT Informatique, je suis intervenu en tant que chef de projet
                         dans une équipe de 5 personnes, moi inclus. <br />

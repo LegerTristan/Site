@@ -17,26 +17,28 @@ export function Presentation(){
             </div>
 
             <div className="colonnes">
-                <div className="firstCol">
+                <div className="cols">
                     <h2>À PROPOS DE MOI</h2>
 
                     <p>Je m'appelle Tristan LÉGER.
                         J'aurais bientôt terminé mon DUT, et j'envisage de poursuivre mes études dans le secteur du multimédia et du numérique.
                         Étant passionné par l'univers du jeux-vidéo et l'animation, je désire suivre une formation dans le domaine du jeux-vidéo, plutôt orienté vers la programmation ou le game design.
+                        Ce cursus m'offirait la possibilité de rejoindre ce secteur en tant que Game Designer/ Lead Programmeur 
+                        et de mettre mon sens de l'organisation au profit d'un studio.
                     </p>
                 </div>
 
-                <div className="secondCol">
+                <div className="cols">
                     <h2>FORMATIONS</h2>
 
                     <p> J'étudie depuis deux ans à l'IUT du Limousin où je suis un DUT Informatique,
                          j'y ai appris toutes les connaissances et les méthodes en informatiques et gestion de projets que je possède aujourd'hui.
-                         Auparavant, j'ai obtenu mon Baccalauréat scientifique avec la mention Assez Bien au Lycée Jean-Baptiste Darnet (87).
+                        Auparavant, j'ai obtenu mon Baccalauréat scientifique avec la mention Assez Bien au Lycée Jean-Baptiste Darnet (87).
                     </p>
                     <Link to="/formations">- En savoir plus -</Link>
                 </div>
 
-                <div className="thirdCol">
+                <div className="cols">
                     <h2>DERNIÈRES EXPÉRIENCES</h2>
 
                     <p> Dans le cadre de la validation de mon DUT, et de l'évolution de mes compétences professionelles,
