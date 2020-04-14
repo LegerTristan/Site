@@ -4,8 +4,8 @@ html{
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: Arial, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', Helvetica,
     sans-serif;
   width: 100%;
   min-width: 100%;

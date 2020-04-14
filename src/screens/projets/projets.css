@@ -16,7 +16,7 @@
 }
 
 .memoryFX{
-  border-bottom: 2px solid gray;
+  border-bottom: 0.2em solid gray;
 }
 
 .gauche, .droite{
@@ -26,9 +26,9 @@
 .gauche{
   margin-left: 10vw;
   background-color: white;
-  padding: 20px;
-  border: 1px solid black;
-  box-shadow: 3px 3px 3px black;
+  padding: 2em;
+  border: 0.1em solid black;
+  box-shadow: 0.3em 0.3em 0.3em black;
 }
 
 .gauche p{
@@ -50,7 +50,38 @@
 
 .droite img{
   width: 90%;
-  border: 1px solid black;
+  border: 0.1em solid black;
   margin-bottom: 2vh;
 }
 
+/*     MOBILE     */
+
+.memoryFX-M, .souvenangeM{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.memoryFX-M{
+  border-bottom: 0.1em solid gray;
+}
+
+.outilSvngeM{
+  width: 25px;
+  padding: 0 3px;
+}
+
+.jfxM{
+  width: 60px;
+}
+
+.droiteM{
+  text-align: center;
+}
+
+.droiteM img{
+  width: 100%;
+  border: 0.1em solid black;
+  margin-bottom: 1em;
+}
