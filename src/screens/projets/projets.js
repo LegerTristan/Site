@@ -97,7 +97,7 @@ export function Projets(){
                         <div className="gaucheM">
                             <h2>Souvenange
                                 <img src={process.env.PUBLIC_URL + "/icone/iconeReact.png"} alt=" : React, " className="outilSvngeM" title="Outil utilisé : React"/>
-                                <img src={process.env.PUBLIC_URL + "/icone/iconeRedux.png"} alt=" Redux" className="outilSvnge" title="Outil utilisé : Redux"/>
+                                <img src={process.env.PUBLIC_URL + "/icone/iconeRedux.png"} alt=" Redux" className="outilSvngeM" title="Outil utilisé : Redux"/>
                             </h2>
 
                             <p>Lors de ma deuxième année de DUT Informatique, je suis intervenu en tant que chef de projet
