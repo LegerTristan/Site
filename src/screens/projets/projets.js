@@ -59,8 +59,6 @@ export function Projets(){
                         </div>
                         <figure className="droite">
                             <img src={process.env.PUBLIC_URL + "/images/souvenange_visuel.png"}  alt="Capture d'écran du site"></img>
-
-                            <figcaption><a href="https://github.com/LegerTristan " target="_blank" rel="noopener noreferrer">Télécharger le projet sur GitHub</a></figcaption>
                         </figure>
                     </div>
                 </div>
