@@ -13,12 +13,12 @@ export function Formations(){
                         <div className="gauche">
                             <h2>DUT Informatique à l'IUT du Limousin</h2>
 
-                            <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tel que
+                            <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tels que
                                 le Java, le C++, et toutes les technologies liés au Web, c'est-à-dire HTML, CSS et JS. <br />
                                 Ma formation m'a également permis d'appliquer mes compétences au cours de divers projets en y ajoutant de la méthodologie,
                                 et de la gestion de projet. <br />
                                 En effet, grâce aux méthodes agiles et à la réalisation de gestion de projet via des Gantt, des diagrammes de Use Case etc,
-                                j'ai acquis la rigueur nécessaire pour planifier et concevoir un produit demandés par un client par exemple.
+                                j'ai acquis la rigueur nécessaire pour planifier et concevoir un produit demandé par un client par exemple.
                             </p>
                         </div>
                         <figure className="droiteFrm">
@@ -54,12 +54,12 @@ export function Formations(){
                         <div className="gaucheM">
                             <h2>DUT Informatique à l'IUT du Limousin</h2>
 
-                            <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tel que
+                            <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tels que
                                 le Java, le C++, et toutes les technologies liés au Web, c'est-à-dire HTML, CSS et JS. <br />
                                 Ma formation m'a également permis d'appliquer mes compétences au cours de divers projets en y ajoutant de la méthodologie,
                                 et de la gestion de projet. <br />
                                 En effet, grâce aux méthodes agiles et à la réalisation de gestion de projet via des Gantt, des diagrammes de Use Case etc,
-                                j'ai acquis la rigueur nécessaire pour planifier et concevoir un produit demandés par un client par exemple.
+                                j'ai acquis la rigueur nécessaire pour planifier et concevoir un produit demandé par un client par exemple.
                             </p>
                         </div>
                         <figure className="droiteFrm-M">

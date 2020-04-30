@@ -66,20 +66,24 @@ function App() {
                         <div>
                             <div>
                                 <p><img src={process.env.PUBLIC_URL + "/icone/mail.png"} alt="Icone de mail" className="iconeContact"/><a href="mailto:tristan.leger@etu.unilim.fr">tristan.leger@etu.unilim.fr</a></p>
-                                <p><img src={process.env.PUBLIC_URL + "/icone/github.png"} alt="Logo de GitHub" className="iconeContact"/><a href="https://github.com/LegerTristan" target="_blank" rel="noopener noreferrer">LegerTristan</a></p>
+                                <p><img src={process.env.PUBLIC_URL + "/icone/github.png"} alt="GitHub" className="iconeContact"/><a href="https://github.com/LegerTristan" target="_blank" rel="noopener noreferrer">LegerTristan</a></p>
                             </div>  
                             <p>TRISTAN LÉGER © 2020</p>
+                            <div>
+                                <p><img src={process.env.PUBLIC_URL + "/icone/linkedin.png"} alt="Linkedin" className="iconeContact"/><a href="https://www.linkedin.com/in/tristan-l%C3%A9ger-4444101a2/">Tristan Léger</a></p>
+                            </div>
                         </div> 
                     </footer>
                 )}
                 {!matches && (
                     <footer className="footerMobile">
                         <div>
-                            <div>
-                                <p><img src={process.env.PUBLIC_URL + "/icone/mail.png"} alt="Icone de mail" className="iconeContact"/><a href="mailto:tristan.leger@etu.unilim.fr">tristan.leger@etu.unilim.fr</a></p>
-                                <p><img src={process.env.PUBLIC_URL + "/icone/github.png"} alt="Logo de GitHub" className="iconeContact"/><a href="https://github.com/LegerTristan" target="_blank" rel="noopener noreferrer">LegerTristan</a></p>
-                            </div>  
                             <p className="cpyrght">TRISTAN LÉGER © 2020</p>
+                            <div>
+                                <a href="mailto:tristan.leger@etu.unilim.fr"><img src={process.env.PUBLIC_URL + "/icone/mail.png"} alt="Icone de mail" className="iconeContact"/></a>
+                                <a href="https://github.com/LegerTristan" target="_blank" rel="noopener noreferrer"><img src={process.env.PUBLIC_URL + "/icone/github.png"} alt="GitHub" className="iconeContact"/></a>
+                                <a href="https://www.linkedin.com/in/tristan-l%C3%A9ger-4444101a2/" target="_blank" rel="noopener noreferrer"><img src={process.env.PUBLIC_URL + "/icone/linkedin.png"} alt="Linkedin" className="iconeContact"/></a>
+                            </div>
                         </div> 
                     </footer>
                 )}

@@ -59,12 +59,11 @@ footer{
 }
 
 footer > div{
-  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: auto;
-  margin-left: calc(3% + 4em);
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 footer p{
@@ -121,28 +120,23 @@ footer p{
   border-radius: 5%;
 }
 
-.footerMobile div{
+.footerMobile > div{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .footerMobile div div{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
   width: 55%;
 }
 
 .footerMobile p{
-  display: flex;
-  align-items: center;
   font-size: 0.8em;
-  margin: 0;
   padding-top: 1em;
 }
 
@@ -152,6 +146,5 @@ footer p{
 }
 
 .cpyrght{
-  width: 150%;
   margin-right: 0.5em !important;
 }

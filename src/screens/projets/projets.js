@@ -45,16 +45,18 @@ export function Projets(){
                                 dans une équipe de 5 personnes, moi inclus. <br />
                                 Dans le cadre d'un projet tuteuré, nous avons dû réaliser la refonte du site de l'association Souvenange,
                                 une association qui accompagne les familles dans le deuil périnatal par la photographie.
-                                En raison d'un augmentation constante du nombre de visiteurs sur leur site, nous avons dû procéder
+                                En raison d'une augmentation constante du nombre de visiteurs sur leur site, nous avons dû procéder
                                 à une amélioration graphique pour mieux guider les utilisateurs vers le formulaire de contact.<br />
                                 Également, nous devions ajouter des fonctionnalités au site via l'outil React afin de faciliter la
                                 communication entre la secrétaire de l'association et les bénévoles. <br />
-                                Ce projet m'a beaucoup apporté aussi bien en savoir-faire, notamment par l'apprentissage d'un langage,
-                                jamais vu en cours. <br />
-                                Du coup, j'ai appris en autonomie et en autodidaxie, à travailler avec une technologie qui m'est inconnue
-                                à réagir et à trouver des solutions face à des problèmes techniques qui peuvent me mettre en déroute. <br />
+                                Ce projet m'a beaucoup apporté aussi bien en savoir-faire, notamment par l'apprentissage d'un langage 
+                                jamais vu en cours, qu'en savoir-être. <br />
+                                Par conséquent, j'ai appris en autonomie, et en autodidaxie à travailler avec une technologie qui m'est inconnue,
+                                à réagir et trouver des solutions face à des problèmes techniques qui peuvent me mettre en déroute. <br />
                                 Enfin, diriger une équipe m'a offert une expérience unique, j'ai acquis un sens de l'organisation et
-                                une meilleure de planification de projet grâce à la direction de ce projet pour un vrai client.
+                                une meilleure de planification de projet grâce à la direction de ce projet pour un vrai client. <br />
+
+                                Étant donné que la marque est déposée par l'association, le projet n'est pas disponible sur GitHub.
                             </p>
                         </div>
                         <figure className="droite">
@@ -75,7 +77,7 @@ export function Projets(){
                                 J'ai réalisé ce projet lors des vacances d'été 2019 dans le but de me challenger, seul, sur le développement
                                 d'une petite application, notamment en passant par sa conception. <br />
                                 J'ai donc développé une première version du projet en suivant le la pattern MVC dans laquelle on peut donc jouer,
-                                déterminer le nombre de "coups" nécessaire pour finir la partie et, enfin, calculer le score du joueur. <br />
+                                déterminer le nombre de "coups" nécessaire pour finir la partie et, calculer le score du joueur. <br />
                                 J'ai, par la suite, refactoré l'application afin de simplifier la génération des cartes. <br />
                                 Ce projet m'a permis de rassembler l'ensemble des connaissances en conception et en programmation
                                 que j'ai obtenu au cours de ma première année. <br />
@@ -102,16 +104,18 @@ export function Projets(){
                                 dans une équipe de 5 personnes, moi inclus. <br />
                                 Dans le cadre d'un projet tuteuré, nous avons dû réaliser la refonte du site de l'association Souvenange,
                                 une association qui accompagne les familles dans le deuil périnatal par la photographie.
-                                En raison d'un augmentation constante du nombre de visiteurs sur leur site, nous avons dû procéder
+                                En raison d'une augmentation constante du nombre de visiteurs sur leur site, nous avons dû procéder
                                 à une amélioration graphique pour mieux guider les utilisateurs vers le formulaire de contact.<br />
                                 Également, nous devions ajouter des fonctionnalités au site via l'outil React afin de faciliter la
                                 communication entre la secrétaire de l'association et les bénévoles. <br />
-                                Ce projet m'a beaucoup apporté aussi bien en savoir-faire, notamment par l'apprentissage d'un langage,
-                                jamais vu en cours. <br />
-                                Du coup, j'ai appris en autonomie et en autodidaxie, à travailler avec une technologie qui m'est inconnue
-                                à réagir et à trouver des solutions face à des problèmes techniques qui peuvent me mettre en déroute. <br />
+                                Ce projet m'a beaucoup apporté aussi bien en savoir-faire, notamment par l'apprentissage d'un langage
+                                jamais vu en cours, qu'en savoir-être.<br />
+                                Par conséquent, j'ai appris en autonomie, et en autodidaxie à travailler avec une technologie qui m'est inconnue
+                                à réagir et trouver des solutions face à des problèmes techniques qui peuvent me mettre en déroute. <br />
                                 Enfin, diriger une équipe m'a offert une expérience unique, j'ai acquis un sens de l'organisation et
-                                une meilleure de planification de projet grâce à la direction de ce projet pour un vrai client.
+                                une meilleure de planification de projet grâce à la direction de ce projet pour un vrai client. <br />
+
+                                Étant donné que la marque est déposée par l'association, le projet n'est pas disponible sur GitHub.
                             </p>
                         </div>
                         <figure className="droiteM">

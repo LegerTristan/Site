@@ -27,7 +27,7 @@ export function Presentation(){
                         J'aurais bientôt terminé mon DUT, et j'envisage de poursuivre mes études dans le secteur du multimédia et du numérique.
                         Étant passionné par l'univers du jeux-vidéo et l'animation, je désire suivre une formation dans le domaine du jeux-vidéo, plutôt orienté vers la programmation ou le game design.
                         Ce cursus m'offrirait la possibilité de rejoindre ce secteur en tant que Game Designer/ Lead Programmeur 
-                        et de mettre mon sens de l'organisation au profit d'un studio.
+                        et de mettre mes compétences au profit d'un studio.
                     </p>
                 </div>
 
@@ -45,10 +45,10 @@ export function Presentation(){
                     <h2>DERNIÈRES EXPÉRIENCES</h2>
 
                     <p> Dans le cadre de la validation de mon DUT, et de l'évolution de mes compétences professionelles,
-                         je vais bientôt débuter un stage à la Mairie de Saint-Yrieix la Perche.
+                         je vais bientôt commencer un stage à la Mairie de Saint-Yrieix la Perche.
                          J'ai également développé plusieurs petits projets au cours de ces deux dernières années.
-                         Parmi eux, j'ai développé personnellement un petit Memory sous Java et, pour un projet tuteuré,
-                         je suis intervenu en tant que chef de projet pour l'association Souvenange.</p>
+                         Parmi eux, j'ai développé personnellement un Memory en JavaFX, une libraire du langage Java.
+                         Également, pour un projet tuteuré, je suis intervenu en tant que chef de projet pour l'association Souvenange.</p>
                     <Link to="/projets">- En savoir plus -</Link>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export function Presentation(){
                             J'aurais bientôt terminé mon DUT, et j'envisage de poursuivre mes études dans le secteur du multimédia et du numérique.
                             Étant passionné par l'univers du jeux-vidéo et l'animation, je désire suivre une formation dans le domaine du jeux-vidéo, plutôt orienté vers la programmation ou le game design.
                             Ce cursus m'offrirait la possibilité de rejoindre ce secteur en tant que Game Designer/ Lead Programmeur 
-                            et de mettre mon sens de l'organisation au profit d'un studio.
+                            et de mettre mes compétences au profit d'un studio.
                         </p>
                     </div>
 
@@ -81,10 +81,10 @@ export function Presentation(){
                         <h2>DERNIÈRES EXPÉRIENCES</h2>
 
                         <p> Dans le cadre de la validation de mon DUT, et de l'évolution de mes compétences professionelles,
-                            je vais bientôt débuter un stage à la Mairie de Saint-Yrieix la Perche.
+                            je vais bientôt commencer un stage à la Mairie de Saint-Yrieix la Perche.
                             J'ai également développé plusieurs petits projets au cours de ces deux dernières années.
-                            Parmi eux, j'ai développé personnellement un petit Memory sous Java et, pour un projet tuteuré,
-                            je suis intervenu en tant que chef de projet pour l'association Souvenange.</p>
+                            Parmi eux, j'ai développé personnellement un Memory en JavaFX, une libraire du langage Java.
+                            Également, pour un projet tuteuré, je suis intervenu en tant que chef de projet pour l'association Souvenange.</p>
                         <Link to="/projets">- En savoir plus -</Link>
                     </div>
                 </div>
