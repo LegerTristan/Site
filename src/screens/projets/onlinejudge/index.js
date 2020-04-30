@@ -1,0 +1,1 @@
+export { OnlineJudge } from './onlinejudge';

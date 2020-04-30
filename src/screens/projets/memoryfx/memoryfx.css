@@ -1,0 +1,64 @@
+/* CONTENU*/
+
+.containerTheProjet{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  border: 0.1em solid black;
+  box-shadow: 0.2em 0.2em 0.2em black;
+  background-color: white;
+  margin: auto;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.containerTheProjet h2 img{
+  width: 3em;
+}
+
+.visuelLien figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visuelLien figcaption{
+  text-align: center;
+  padding: 1em;
+}
+
+.visuelLien img{
+  width: 50em;
+}
+
+.containerTheProjet p{
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+/* MOBILE */
+
+.visuelLienM figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visuelLienM figcaption{
+  text-align: center;
+  padding: 1em;
+  font-size: 14px;
+}
+
+.visuelLienM img{
+  width: 12em;
+  margin: auto;
+}
+
+.visuelLienM p{
+  font-size: 14px;
+}

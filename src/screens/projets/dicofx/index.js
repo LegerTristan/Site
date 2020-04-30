@@ -1,0 +1,1 @@
+export { DicoFX } from './dicofx';

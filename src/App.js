@@ -15,6 +15,14 @@ import { Formations } from './screens/formations';
 import { Projets } from './screens/projets';
 import { NotFoundPage } from './screens/notFoundPage';
 
+import { Souvenange } from './screens/projets/souvenange';
+import { MemoryFX } from './screens/projets/memoryfx';
+import { DicoFX } from './screens/projets/dicofx';
+import { Wroom } from './screens/projets/wroom';
+import { OnlineJudge } from './screens/projets/onlinejudge';
+import { Combava } from './screens/projets/combava';
+import { Biblio } from './screens/projets/biblio';
+
 function App() {
     const matches = useMediaQuery('(min-width:1280px)');
     return(
@@ -58,6 +66,15 @@ function App() {
                     <Route exact path="/" component={Presentation} />
                     <Route path="/projets" component={Projets} />
                     <Route path="/formations" component={Formations} />
+
+                    <Route path="/souvenange" component={Souvenange} />
+                    <Route path="/memoryfx" component={MemoryFX} />
+                    <Route path="/dicofx" component={DicoFX} />
+                    <Route path="/wroom" component={Wroom} />
+                    <Route path="/onlinejudge" component={OnlineJudge} />
+                    <Route path="/combava" component={Combava} />
+                    <Route path="/biblio" component={Biblio} />
+
                     <Route path="*" component={NotFoundPage} />
                 </Switch>
 
