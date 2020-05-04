@@ -20,15 +20,15 @@ export function Projets(){
                             <p>MemoryFX</p>
                         </Link>
                         <Link to="/dicofx">
-                            <img src={process.env.PUBLIC_URL + "/images/dicoFX_visuel.PNG"} alt="DicoFX"/>
+                            <img src={process.env.PUBLIC_URL + "/images/dicoFX_visuel.png"} alt="DicoFX"/>
                             <p>DicoFX</p>
                         </Link>
+                    </div>
+                    <div class="line">
                         <Link to="/wroom">
                             <img src={process.env.PUBLIC_URL + "/images/wroom_visuel.png"} alt="Wroom"/>
                             <p>Wroom</p>
                         </Link>
-                    </div>
-                    <div class="line"> 
                         <Link to="/onlinejudge">
                             <img src={process.env.PUBLIC_URL + "/images/onlinejudge_visuel.jpg"} alt="OnlineJudge"/>
                             <p>Online Judge</p>
@@ -36,7 +36,9 @@ export function Projets(){
                         <Link to="/combava">
                             <img src={process.env.PUBLIC_URL + "/images/combava_visuel.png"} alt="Combava"/>
                             <p>Combava</p>    
-                        </Link>
+                        </Link> 
+                    </div>
+                    <div class="line">
                         <Link to="/biblio">
                             <img src={process.env.PUBLIC_URL + "/images/biblio_visuel.jpg"} alt="Bibliothèque"/>
                             <p>Bibliothèque</p>
