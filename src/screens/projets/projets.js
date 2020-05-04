@@ -20,7 +20,7 @@ export function Projets(){
                             <p>MemoryFX</p>
                         </Link>
                         <Link to="/dicofx">
-                            <img src={process.env.PUBLIC_URL + "/images/dicoFX_visuel.png"} alt="DicoFX"/>
+                            <img src={process.env.PUBLIC_URL + "/images/dicoFX_visuel.PNG"} alt="DicoFX"/>
                             <p>DicoFX</p>
                         </Link>
                         <Link to="/wroom">
