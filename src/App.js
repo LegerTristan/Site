@@ -22,6 +22,7 @@ import { Wroom } from './screens/projets/wroom';
 import { OnlineJudge } from './screens/projets/onlinejudge';
 import { Combava } from './screens/projets/combava';
 import { Biblio } from './screens/projets/biblio';
+import { Scenes } from './screens/projets/scenes';
 
 function App() {
     const matches = useMediaQuery('(min-width:1280px)');
@@ -74,6 +75,7 @@ function App() {
                     <Route path="/onlinejudge" component={OnlineJudge} />
                     <Route path="/combava" component={Combava} />
                     <Route path="/biblio" component={Biblio} />
+                    <Route path="/scenes" component={Scenes} />
 
                     <Route path="*" component={NotFoundPage} />
                 </Switch>

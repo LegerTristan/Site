@@ -44,7 +44,7 @@ export function Presentation(){
                 <div className="cols">
                     <h2>DERNIÈRES EXPÉRIENCES</h2>
 
-                    <p> Dans le cadre de la validation de mon DUT, et de l'évolution de mes compétences professionelles,
+                    <p> Dans le cadre de la validation de mon DUT, et de l'évolution de mes compétences professionnelles,
                          je vais bientôt commencer un stage à la Mairie de Saint-Yrieix la Perche.
                          J'ai également développé plusieurs petits projets au cours de ces deux dernières années.
                          Parmi eux, j'ai développé personnellement un Memory en JavaFX, une libraire du langage Java.

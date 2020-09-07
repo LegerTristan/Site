@@ -35,13 +35,17 @@ export function Projets(){
                         </Link>
                         <Link to="/combava">
                             <img src={process.env.PUBLIC_URL + "/images/combava_visuel.png"} alt="Combava"/>
-                            <p>Combava</p>    
+                            <p>Combava</p>
                         </Link> 
                     </div>
                     <div class="line">
                         <Link to="/biblio">
                             <img src={process.env.PUBLIC_URL + "/images/biblio_visuel.jpg"} alt="Bibliothèque"/>
                             <p>Bibliothèque</p>
+                        </Link>
+                        <Link to="/scenes">
+                            <img src={process.env.PUBLIC_URL + "/images/scenes_visuel.png"} alt="Scènes"/>
+                            <p>Scène</p>
                         </Link>
                     </div>
                 </div>
@@ -76,6 +80,10 @@ export function Projets(){
                     <Link to="/biblio">
                         <img src={process.env.PUBLIC_URL + "/images/biblio_visuel.jpg"} alt="Bibliothèque"/>
                         <p>Bibliothèque</p>
+                    </Link>
+                    <Link to="/scenes">
+                        <img src={process.env.PUBLIC_URL + "/images/scenes_visuel.png"} alt="Scènes"/>
+                        <p>Scène</p>
                     </Link>
                 </div>
             )}

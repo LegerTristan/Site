@@ -14,7 +14,7 @@ export function Formations(){
                             <h2>DUT Informatique à l'IUT du Limousin</h2>
 
                             <p>Lors de mon DUT Informatique, j'ai appris les bases de l'informatique de plusieurs langages de programmation tels que
-                                le Java, le C++, et toutes les technologies liés au Web, c'est-à-dire HTML, CSS et JS. <br />
+                                le Java, le C++, et toutes les technologies liées au Web, c'est-à-dire HTML, CSS et JS. <br />
                                 Ma formation m'a également permis d'appliquer mes compétences au cours de divers projets en y ajoutant de la méthodologie,
                                 et de la gestion de projet. <br />
                                 En effet, grâce aux méthodes agiles et à la réalisation de gestion de projet via des Gantt, des diagrammes de Use Case etc,
@@ -34,7 +34,7 @@ export function Formations(){
 
                             <p>J'ai obtenu mon Baccalauréat scientifique avec la mention assez bien en 2018. <br />
                                 La filière scientifique m'a permis d'acquérir les bases de la physique et les notions de mathématiques
-                                nécessaire pour concevoir des logiciels qui requiert des principes et des règles pour un environnement, une simulation etc. <br />
+                                nécessaires pour concevoir des logiciels qui requiert des principes et des règles pour un environnement, une simulation etc. <br />
                                 L'ensemble des matières étudiés durant ce cursus m'ont offert une culture générale correcte et des bases solides pour poursuivre
                                 mes études. <br />
                             </p>
